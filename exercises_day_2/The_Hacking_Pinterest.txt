@@ -1,0 +1,3 @@
+link => id, url
+comment => id, user_id, comment
+subcomment => comment_id

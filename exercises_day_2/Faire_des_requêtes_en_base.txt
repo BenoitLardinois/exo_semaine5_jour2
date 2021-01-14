@@ -1,0 +1,22 @@
+Récupérer tous les albums;\
+SELECT * FROM albums;
+
+Récupérer tous les albums dont le titre contient "Great";
+SELECT * FROM albums
+WHERE albums.Title LIKE '%great%';
+
+Donner le nombre total d'albums contenus dans la base (sans regarder les id bien sur);
+SELECT COUNT(AlbumId)
+FROM albums;
+
+Supprimer tous les albums dont le nom contient music;
+DELETE FROM albums
+WHERE albums.Title LIKE '%music%';
+
+Récupérer tout les albums écrits par AC/DC;
+SELECT FROM albums
+JOIN artists ON artists.ArtistsId
+WHERE artists.Name = "AC/DC";
+
+Récupérer tout les titres des albums de AC/DC;\
+S

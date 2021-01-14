@@ -1,0 +1,2 @@
+course => id, title, description,
+lessons => id, title, content, course_id

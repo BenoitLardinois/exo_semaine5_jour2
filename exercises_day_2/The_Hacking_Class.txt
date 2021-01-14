@@ -1,0 +1,2 @@
+student => id, student_id, course
+course => id, course_id, student_id
